@@ -1,0 +1,20 @@
+p{
+	/*Content width and height*/
+
+/*	width: 300 px;*/
+
+	width: 50%;
+	/*Border*/
+	border: 2px solid red;
+
+	/*Padding*/
+/*	padding: 10px;*/
+	padding-left: 70px;
+
+	/*Margin*/
+/*	margin: 50px;*/
+/*	margin : 50px 80px 400px 100px; top right bottom left */
+/*	margin : 0 auto 0 auto; this and below are same*/
+/*	margin : 0 auto; top and botoom  left and right */
+	margin : 10px auto;
+}
