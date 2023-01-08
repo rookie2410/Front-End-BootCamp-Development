@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Registraion Form</title>
+</head>
+<body>
+
+	<h1>Register</h1>
+
+	<form>
+		<label for="fname">First Name: </label>
+		<input id="fname" name="fname" type="text" placeholder="First Name" required>
+
+		<label for="lname">Last Name: </label>
+		<input id="lname" name="lname" type="text" placeholder="Last Name" required>
+
+		<div>
+		<label for="male">Male </label>
+		<input type="radio" name="gender" id="male"  value="1">
+		<label for="female">Female </label>
+		<input type="radio" name="gender" id="female"  value="2">
+		<label for="other">Other </label>
+		<input type="radio" name="gender" id="other" value="3" >
+		</div>
+		
+		<div>
+		<label for="email">Email:</label>
+		<input id="email" name="email" type="email"placeholder="Email ID" required> 
+
+		<label for="pass">Password:<input id="pass" type="Password"placeholder="password" pattern=".{5,10}" title="please make sure password length is between 5 and 10" required> </label>
+		</div>
+
+		<div>
+		<label for="bday_month">Birthday:
+		<select name="Month">
+			<option>Month</option>
+			<option>Jan</option>
+			<option>Feb</option>
+			<option>March</option>
+			<option>April</option>
+			<option>May</option>
+			<option>June</option>
+		</select>
+		<select name="Day">
+			<option>Day</option>
+			<option>1</option>
+			<option>2</option>
+			<option>3</option>
+			<option>4</option>
+			<option>4</option>
+			<option>5</option>
+		</select>
+		<select name="Year">
+			<option>Year</option>
+			<option>2001</option>
+			<option>2002</option>
+			<option>2003</option>
+			<option>2004</option>
+			<option>2005</option>
+			<option>2005</option>
+		</select>
+		</label>
+		</div>
+
+		<div>
+		<label for="terms">I agree to terms and Conditions :</label>
+		<input type="checkbox" name="agreed" id="terms" required>
+		</div>
+		
+
+		<button>Submit</button>
+	</form>
+</body>
+</html>
